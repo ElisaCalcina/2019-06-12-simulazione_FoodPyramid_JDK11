@@ -1,6 +1,6 @@
 package it.polito.tdp.food.model;
 
-public class Condiment {
+public class Condiment{
 	private Integer condiment_id;
 	private Integer food_code;
 	private String display_name;
@@ -78,6 +78,8 @@ public class Condiment {
 			return false;
 		return true;
 	}
+
+	
 	
 	
 	
